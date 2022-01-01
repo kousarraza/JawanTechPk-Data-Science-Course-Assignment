@@ -1,0 +1,38 @@
+#Question-1
+print("Twinkle, twinkle, little star,")
+print("\tHow I wonder what you are!")
+print("\t\tUp above the world so high,")
+print("\t\tLike a diamond in the sky.")
+print("Twinkle, twinkle, little star")
+print("\tHow I wonder what you are")
+
+#Question-2
+import sys
+print("Python version")
+print (sys.version)
+print("Version info.")
+print (sys.version_info)
+
+
+#Question-3
+import datetime
+now = datetime.datetime.now()
+print ("Current date and time : ")
+print (now.strftime("%Y-%m-%d %H:%M:%S"))
+
+#Question-4
+radius = float(input ("Input the radius of the circle : "))
+pi=3.14
+area=str(pi * radius**2)
+print ("The area of the circle is " +area)
+
+#Question-5
+first_name = input("Enter your First Name  ")
+last_name = input("Enter your Last Name ")
+print (last_name + " " + first_name)
+
+#Question-6
+num1 = int(input("Enter First Number "))
+num2 = int(input("Enter Second Number "))
+num3=int(num1+num2)
+print(num3)
